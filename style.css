@@ -4,5 +4,6 @@ body {
 }
 
 section {
+    background: rgb(139, 228, 139);
     display: flex;
 }
