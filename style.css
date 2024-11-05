@@ -2,8 +2,12 @@ body {
     background-color: #E5D9F2;
     color: #605678;
 }
+header h1 {
+    color: black;
+    text-transform: uppercase;
+}
 
-section {
+.container1{
     background: rgb(139, 228, 139);
     display: flex;
     padding-top: 80px;
@@ -15,12 +19,35 @@ section {
     margin-right: 10%;
 }
 
-img {
-    height: 200px;
+.chamada-texto2 {
+    color: black;
+    text-transform: uppercase;
+    display: block;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
 }
+
 .categoria-videos {
     display: flex;
     overflow-x: auto;
-    gap: 10px;
-    
+    gap: 10px;    
+}
+
+.categoria-videos img {
+    height: 200px;
+    opacity: 0.7;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 5px solid rgb(228, 232, 228);
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    background-color: blueviolet;
+    color: white;
+    font-weight: 700;
 }
